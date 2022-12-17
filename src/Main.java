@@ -24,7 +24,6 @@ public class Main {
         for ( int i = 0; i < numbersFirm.length && i < guessednumbers.length; i++){
             if (numbersFirm[i] == guessednumbers[i]){
                 count++;
-
             }
                     }
         System.out.println("Кількість збігів: " + count);
